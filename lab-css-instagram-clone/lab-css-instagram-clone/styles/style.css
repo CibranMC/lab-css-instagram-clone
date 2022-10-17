@@ -1,0 +1,109 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
+}
+
+h2 {
+  color: #06365f;
+}
+
+.background {
+  background: url(../images/bgtile.png);
+  height: 40vh;
+  width: 100%;
+  position: absolute;
+  z-index: -999;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.login {
+  text-decoration: none;
+  color: white;
+  background-color: #06365f;
+  box-shadow: 4px 4px 0 #1c5380;
+  padding: 5px;
+  font-size: 14px;
+  margin-top: 43px;
+  margin-bottom: 40px;
+  border: 1px solid #1c5380;
+  border-radius: 7px;
+}
+
+.home {
+  padding-top: 4px;
+}
+
+.instagram-info {
+  display: block;
+  width: 430px;
+  margin: 60px;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+}
+
+.brand {
+  padding-right: 10px;
+}
+
+.background-white {
+  background: url("../images/frame.png") no-repeat;
+  background-size: contain;
+  height: 400px;
+  padding: 15px;
+}
+
+.badge-iphone {
+  margin-left: 15px;
+  padding: 10px;
+}
+
+.badge-android {
+  padding: 10px;
+}
+
+.footer {
+  height: 15vh;
+}
+
+.footer nav {
+  height: 100%;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-menu li {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 20px;
+  text-transform: uppercase;
+}
